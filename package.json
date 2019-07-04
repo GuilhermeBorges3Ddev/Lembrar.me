@@ -1,11 +1,30 @@
 {
   "name": "Lembrar.me",
   "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "create-react-app": "^3.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "^3.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini_all"
+  ],
   "description": "It's a simple to-do list and task manager app that helps you get stuff done. Whether you’re sharing a grocery list with a loved one, working on a project, or planning a vacation.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GuilhermeBorges3Ddev/Lembrar.me.git"
@@ -16,8 +35,5 @@
   "bugs": {
     "url": "https://github.com/GuilhermeBorges3Ddev/Lembrar.me/issues"
   },
-  "homepage": "https://github.com/GuilhermeBorges3Ddev/Lembrar.me#readme",
-  "dependencies": {
-    "create-react-app": "^3.0.1"
-  }
+  "homepage": "https://github.com/GuilhermeBorges3Ddev/Lembrar.me#readme"
 }
